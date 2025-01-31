@@ -24,69 +24,7 @@ local args = {
 game:GetService("ReplicatedStorage").endpoints.client_to_server.select_roguelike_option:InvokeServer(unpack(args))
 end
 
-local buff2 = {
-"+ New Path",
-"+ Enemy Regen III",
-"+ Enemy Speed III",
-"+ Enemy Health III"
-"+ Enemy Regen II",
-"+ Enemy Speed II",
-"+ Enemy Health II"
-"+ Gain 2 Random Curses Tier 1",
-"+ Enemy Regen I",
-"+ Enemy Speed I",
-"+ Enemy Shield I"
-"+ Enemy Health I"
-"+ Range III",
-"+ Attack III",
-"+ Gain 2 Random Effects Tier 3",
-"+ Range II",
-"- Cooldown III",
-"+ Range I",
-"+ Attack II",
-"+ Attack I",
-"- Cooldown II",
-"+ Gain 2 Random Effects Tier 1",
-"- Cooldown I",
-"+ Yen III",
-"+ Yen II",
-"+ Yen I",
-  
-  "+ Gain 2 Random Curses Tier 2",
-  "+ Gain 2 Random Curses Tier 3",
-}
 
-local buff1 = {
-"+ New Path",
-"+ Enemy Regen III",
-"+ Enemy Speed III",
-"+ Enemy Health III"
-"+ Enemy Regen II",
-"+ Enemy Speed II",
-"+ Enemy Health II"
-"+ Gain 2 Random Curses Tier 1",
-"+ Enemy Regen I",
-"+ Enemy Speed I",
-"+ Enemy Shield I"
-"+ Enemy Health I"
-"+ Range III",
-"+ Attack III",
-"+ Gain 2 Random Effects Tier 3",
-"+ Range II",
-"- Cooldown III",
-"+ Range I",
-"+ Attack II",
-"+ Attack I",
-"- Cooldown II",
-"+ Gain 2 Random Effects Tier 1",
-"- Cooldown I",
-"+ Yen III",
-"+ Yen II",
-"+ Yen I",
-  
-  "+ Gain 2 Random Curses Tier 2",
-  "+ Gain 2 Random Curses Tier 3",
-}
 wait(3)
 while wait() do
   wait()
