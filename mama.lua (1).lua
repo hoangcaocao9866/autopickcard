@@ -1,4 +1,11 @@
 repeat wait() until game:IsLoaded()
+
+
+
+
+
+
+
 wait(5)
 local function pick1()
 local args = {
